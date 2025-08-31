@@ -158,27 +158,11 @@
         <!-- Indicators -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
     
         <!-- Carousel Items -->
         <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item position-relative">
-            <img src="./assets/shoe-repair.jpg" class="d-block w-100" alt="Shoe Repair Service">
-            <div
-              class="text-container position-absolute top-50 translate-middle container col-md-10 col-lg-5 col-sm-12 pe-4 fw-medium text-white text-md-start text-center">
-              <h5 class="animate__animated opacity-0 fw-bold subheading" data-animate-class="animate__fadeInUp" style="animation-delay: 150ms;">New Holiday Special!</h5>
-              
-              <h1 class="animate__animated opacity-0" data-animate-class="animate__fadeInUp" style="animation-delay: 150ms;">
-              12 Hour Turnaround for Shoe Repairs!
-              </h1>
-              <p class="animate__animated opacity-0 py-3" data-animate-class="animate__fadeInUp" style="animation-delay: 300ms;">
-                Drop off your shoes in the morning and pick them up after work. We also offer in-store, while-you-wait repair!
-              </p>
-            </div>
-          </div>
-
+          <!-- Single Slide -->
           <div class="carousel-item active position-relative">
             <img src="./assets//hero.png" class="d-block w-100" alt="Custom Orthotics">
             <div class="overlay"></div>
@@ -204,15 +188,7 @@
           <!-- Slide 2 -->
         </div>
     
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      
       </div>
     </section>
     
@@ -704,5 +680,37 @@
       <div>
       </div>
     </footer>
+
+    <!-- Temporary Closure Modal -->
+    <div class="modal fade" id="closureModal" tabindex="-1" aria-labelledby="closureModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="closureModalLabel">Temporary Closure Notice</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>We will be on vacation from October 1st to November 5th, 2025.</p>
+            <p>We look forward to serving you again when we return!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+            crossorigin="anonymous"></script>
+    
+    <!-- Modal Auto-show Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var myModal = new bootstrap.Modal(document.getElementById('closureModal'));
+        myModal.show();
+      });
+    </script>
   </body>
 </html>
