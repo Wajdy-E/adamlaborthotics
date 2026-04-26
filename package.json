@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Modern website for Adam Lab Orthotic, custom orthotics and shoe repair in Hamilton.",
   "private": true,
+  "engines": {
+    "node": "20.19.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
