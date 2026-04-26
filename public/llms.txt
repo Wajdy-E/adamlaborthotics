@@ -18,6 +18,8 @@ Adam Lab Orthotic is a local Hamilton business helping customers with custom-mad
 
 - Name: Adam Lab Orthotic
 - Address: 450 Main St W, Hamilton, ON L8P 1K7, Canada
+- Landmark: Located beside Dundurn Plaza (50 Dundurn St S), very close to LendDirect
+- Parking: Customers can park at LendDirect
 - Phone: 1-905-296-1017
 - Email: adamlo2013@gmail.com
 - Hours: Monday-Friday 9AM-6PM; Saturday-Sunday 11AM-5PM

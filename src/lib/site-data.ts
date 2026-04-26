@@ -9,6 +9,8 @@ export const business = {
   email: "adamlo2013@gmail.com",
   emailHref: "mailto:adamlo2013@gmail.com",
   address: "450 Main St W, Hamilton ON",
+  locationHint: "Located beside Dundurn Plaza (50 Dundurn St S), very close to LendDirect.",
+  parkingHint: "Parking is available at LendDirect.",
   streetAddress: "450 Main St W",
   city: "Hamilton",
   region: "ON",

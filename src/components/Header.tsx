@@ -12,7 +12,7 @@ export function Header() {
           <div className="flex flex-wrap gap-x-4 gap-y-1 text-white/90">
             <a href={business.emailHref}>{business.email}</a>
             <a href={business.mapHref} target="_blank" rel="noreferrer">
-              {business.address}
+              {business.address} · beside Dundurn Plaza
             </a>
           </div>
         </div>

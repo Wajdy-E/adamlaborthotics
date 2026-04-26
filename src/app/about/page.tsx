@@ -54,6 +54,8 @@ export default function AboutPage() {
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-100">Location</p>
               <h2 className="mt-3 text-2xl font-semibold !text-white">{business.address}</h2>
+              <p className="mt-3 text-teal-50/85">{business.locationHint}</p>
+              <p className="mt-2 text-teal-50/85">{business.parkingHint}</p>
             </div>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-100">Hours</p>

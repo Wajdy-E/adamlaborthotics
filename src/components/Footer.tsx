@@ -41,6 +41,8 @@ export function Footer() {
               <a href={business.mapHref} target="_blank" rel="noreferrer">
                 {business.address}
               </a>
+              <p>{business.locationHint}</p>
+              <p>{business.parkingHint}</p>
               <a href={business.emailHref}>{business.email}</a>
               <a href={business.phoneHref}>{business.phone}</a>
               <div>

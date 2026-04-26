@@ -21,7 +21,7 @@ export default function ContactPage() {
         <SectionHeader
           eyebrow="Contact"
           title="Visit, call, or send a message."
-          description="No appointment is usually necessary for shoe repair drop-offs. For orthotics, call or message with your questions, prescription details, or insurance needs."
+          description="No appointment is usually necessary for shoe repair drop-offs. We are at 450 Main St W, beside Dundurn Plaza and very close to LendDirect."
         />
         <div className="mt-12 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="interactive-card animate-soft-scale rounded-[2rem] bg-[var(--primary-dark)] p-8 !text-white card-shadow">
@@ -32,6 +32,13 @@ export default function ContactPage() {
               <a href={business.mapHref} target="_blank" rel="noreferrer">
                 {business.address}
               </a>
+            </div>
+            <div className="mt-8 rounded-3xl bg-white/12 p-5">
+              <h3 className="font-semibold">Finding us</h3>
+              <div className="mt-3 grid gap-2 text-teal-50/90">
+                <p>{business.locationHint}</p>
+                <p>{business.parkingHint}</p>
+              </div>
             </div>
             <div className="mt-8 rounded-3xl bg-white/12 p-5">
               <h3 className="font-semibold">Hours</h3>
